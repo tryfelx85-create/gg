@@ -1,0 +1,25 @@
+name: StrengthSMP
+version: '0.1.0'
+main: com.strengthsmp.plugin.StrengthSmpPlugin
+api-version: '1.21'
+author: TryFX
+
+commands:
+  strength:
+    description: View or manage Strength.
+    usage: /strength [player]
+  strengthadmin:
+    description: Admin Strength management.
+    usage: /strengthadmin <set|add|remove> <player> <amount>
+    permission: strengthsmp.admin
+  ability:
+    description: View or pick your ability.
+    usage: /ability [list|info <id>]
+
+permissions:
+  strengthsmp.admin:
+    description: Full admin access to StrengthSMP commands.
+    default: op
+  strengthsmp.use:
+    description: Basic player access to StrengthSMP commands.
+    default: true

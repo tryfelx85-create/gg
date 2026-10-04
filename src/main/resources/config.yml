@@ -1,0 +1,10 @@
+strength:
+  # Configurable maximum Strength a player/bot can reach.
+  max: 25
+
+# Admin overrides for ability tier unlock thresholds. Remove a line to use
+# the ability's built-in default (ONE=0, TWO=10, THREE=20).
+ability-tiers:
+  ONE: 0
+  TWO: 10
+  THREE: 20
